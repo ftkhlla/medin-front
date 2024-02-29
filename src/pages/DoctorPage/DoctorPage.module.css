@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+
+
+.treatment_medicine {
+    font-family: 'DM Sans', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #455A64;
+}
+
+.registration_text {
+    font-family: 'DM Sans', sans-serif;
+    color: #455A64;
+}
+
+
+.my_patients {
+    height: 310px;
+    /* background-color: red; */
+    /* border:1px solib black; */
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.searchPatients {
+    margin-left: 60px;
+    border-top: 1px solid #767676;
+    padding-top: 20px;
+}
+
+.searchPatients div h6 {
+    font-family: 'DM Sans', sans-serif;
+    color: #455A64;
+}
+
+.new_patient {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.new_patient_avatar {
+    flex: 1 1 0px;
+    /* border: 1px solid black; */
+}
+
+.new_patient_name {
+    flex: 1 1 0px;
+    /* border: 1px solid black; */
+}
+
+.new_patient_add {
+    padding-top: 20px;
+
+    flex: 1 1 0px;
+    /* border: 1px solid black; */
+}
+
+.loader {
+    margin-left: 90px;
+    margin-top: 0px;
+    width: 70%;
+}
+
+.personal_info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.personal_info_1 {
+    width: 30%
+}
+
+.my_avatar_age {
+    width: 310px;
+    height: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.avatar {
+    height: 150px;
+}
+
+.my_info {
+
+    width: 310px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.field_name {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FF725E;
+}
+
+.field_value {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #455A64
+}
+
+.personal_info_2 {
+    width: 70%
+}
+
+.medical_card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 90%;
+    height: 525px;
+    margin-left: 30px;
+    padding: 30px
+}
+
+.medical_card_name h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #455A64;
+}
+
+.treatment {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 80%;
+    height: 650px;
+    padding: 15px
+}
+
+.treatment_patient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.treatment_patient div h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #455A64;
+}
+
+.calendar_week {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.today_week {
+    background: #FF725E;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white
+}
+
+.body {
+    background: linear-gradient(180deg, rgba(255, 114, 94, 0.34) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.button_option {
+    width: 100px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
+    cursor: pointer;
+}
+
+.button_option:hover {
+    background: #FF725E;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 3px;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.button_option:focus {
+    background: #FF725E;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+
+
+.patient_info {
+    width: 80vw;
+    height: 900px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: -8px;
+
+}
+
+.doctor_card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+
+}
+
+.doctor {
+    padding-top: 10px;
+
+}
+
+.doctor h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+.doctor h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.yellow_circle {
+    background-color: #FFDC5E;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.red_circle {
+    background-color: #FF685E;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+
+}
+
+.green_circle {
+    background-color: #46CB6B;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+
+}
+
+.footer {
+    height: 200px
+}
